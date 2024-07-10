@@ -5,8 +5,22 @@ class LoginPage extends GetView<LoginController> {
 
   // 主视图
   Widget _buildView() {
-    return const Center(
-      child: Text("LoginPage"),
+    return SingleChildScrollView(
+      child: <Widget>[
+        Center(
+          child: Image.network(
+            '',
+            width: 120,
+            height: 120,
+            fit: BoxFit.cover,
+          ).onTap(() => controller.onContinuousClicks()).paddingBottom(50.w),
+        ),
+        // 表单
+        _buildForm(context).paddingHorizontal(AppSpace.page),
+      ]
+          .toColumn(crossAxisAlignment: CrossAxisAlignment.start)
+          .center()
+          .paddingHorizontal(AppSpace.page),
     );
   }
 
