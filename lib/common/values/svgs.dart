@@ -1,0 +1,41 @@
+/// SVG 资源 - 复制 assets 资源文件中svgs的files.txt
+class AssetsSvgs {
+  static const browserDownloadSvg = 'assets/svg/browser_download.svg';
+  static const commonExpandBackSvg = 'assets/svg/common_expand_back.svg';
+  static const commonExpandDownSvg = 'assets/svg/common_expand_down.svg';
+  static const datepickerSvg = 'assets/svg/datepicker.svg';
+  static const doneLabelSvg = 'assets/svg/done_label.svg';
+  static const eventCameraSvg = 'assets/svg/event_camera.svg';
+  static const eventPersonSvg = 'assets/svg/event_person.svg';
+  static const eventPositionSvg = 'assets/svg/event_position.svg';
+  static const eventTimeSvg = 'assets/svg/event_time.svg';
+  static const eventTypeSvg = 'assets/svg/event_type.svg';
+  static const groupAddSvg = 'assets/svg/group_add.svg';
+  static const groupDelSvg = 'assets/svg/group_del.svg';
+  static const homeArticleSvg = 'assets/svg/home_article.svg';
+  static const homeMaterialSvg = 'assets/svg/home_material.svg';
+  static const homeReportSvg = 'assets/svg/home_report.svg';
+  static const homeTakeCasuallySvg = 'assets/svg/home_take_casually.svg';
+  static const homeTodoSvg = 'assets/svg/home_todo.svg';
+  static const imgDeleteSvg = 'assets/svg/img_delete.svg';
+  static const imgDeleteOpenSvg = 'assets/svg/img_delete_open.svg';
+  static const myAboutSvg = 'assets/svg/my_about.svg';
+  static const myCloseSvg = 'assets/svg/my_close.svg';
+  static const myDestroySvg = 'assets/svg/my_destroy.svg';
+  static const myEmptyCacheSvg = 'assets/svg/my_empty_cache.svg';
+  static const myEventSvg = 'assets/svg/my_event.svg';
+  static const myPwdSvg = 'assets/svg/my_pwd.svg';
+  static const mySettingSvg = 'assets/svg/my_setting.svg';
+  static const pointNodeSvg = 'assets/svg/point_node.svg';
+  static const refreshSvg = 'assets/svg/refresh.svg';
+  static const relocateSvg = 'assets/svg/relocate.svg';
+  static const relocateFillSvg = 'assets/svg/relocate_fill.svg';
+  static const searchSvg = 'assets/svg/search.svg';
+  static const statisticsCalendarSvg = 'assets/svg/statistics_calendar.svg';
+  static const superviseCategorySvg = 'assets/svg/supervise_category.svg';
+  static const superviseNewSvg = 'assets/svg/supervise_new.svg';
+  static const tabEventSvg = 'assets/svg/tab_event.svg';
+  static const tabHomeSvg = 'assets/svg/tab_home.svg';
+  static const tabProfileSvg = 'assets/svg/tab_profile.svg';
+  static const tabSuperviseSvg = 'assets/svg/tab_supervise.svg';
+}
